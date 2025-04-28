@@ -45,7 +45,6 @@ target_include_directories(${PROJECT_NAME}.elf PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/Firmware/RISCV/stubs
     ${CMAKE_CURRENT_SOURCE_DIR}/Firmware/RISCV/drivers
     ${CMAKE_CURRENT_SOURCE_DIR}/inc
-    ${CMAKE_CURRENT_SOURCE_DIR}/toolchain/gcc/riscv-nuclei-elf/include/
 )
 
 # 彩色编译输出
